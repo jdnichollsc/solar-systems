@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Solar System in Pure Web Animations API (WAAPI)</title>
+    <script type="module" src="https://unpkg.com/@proyecto26/animatable-component@1.1.7/dist/animatable-component/animatable-component.esm.js"></script>
+    <script nomodule src="https://unpkg.com/@proyecto26/animatable-component@1.1.7/dist/animatable-component/animatable-component.js"></script> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- STARS -->
+    <div class="stars"></div>
+
+    <!-- SOLAR SYSTEM ANIMATABLE -->
+    <div class="solar-system"></div>
+
+    <!-- SHOOTING STARS -->
+    <animatable-component
+      class='shooting-star'
+      autoplay
+      fill="both"
+      iterations="1"
+      easing="linear"
+      duration="3000"
+      delay="2600"
+    >
+    </animatable-component>
+    
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
