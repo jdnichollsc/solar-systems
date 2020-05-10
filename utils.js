@@ -1,6 +1,5 @@
 /* ----------------------- UTILITIES ----------------------- */
-
-export function closeFullscreen() {
+function closeFullscreen() {
   if (document.exitFullscreen) {
     document.exitFullscreen();
   } else if (document.mozCancelFullScreen) { /* Firefox */
@@ -11,7 +10,7 @@ export function closeFullscreen() {
     document.msExitFullscreen();
   }
 }
-export function toggleFullscreen() {
+function toggleFullscreen() {
   if (
     document.fullscreenElement || 
     document.mozFullScreenElement || 
