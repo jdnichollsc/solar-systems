@@ -8,7 +8,9 @@ Remember to check the repository of the Web Component used here to animate our s
 Enjoy the heavens together! 🔭💫
 
 ## Credits 👍
-* **Pure CSS Solar System Animation:** https://picturepan2.github.io/solar.css/
+- **Pure CSS Solar System Animation:** https://picturepan2.github.io/solar.css/
+- https://codepen.io/kowlor/pen/ZYYQoy
+- https://codepen.io/juliangarnier/pen/idhuG
 
 ## Supporting 🍻
 I believe in Unicorns 🦄
