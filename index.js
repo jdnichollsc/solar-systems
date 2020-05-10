@@ -188,14 +188,14 @@ function createShootingStar(element) {
 /* ----------------------- FUNCTIONS ----------------------- */
 
 function shootingStar (element) {
-  const { offsetWidth, offsetHeight } = solarSystem
+  const { innerWidth, innerHeight } = window
   const p1 = {
-    x: Math.random() * offsetWidth,
-    y: Math.random() * offsetHeight
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight
   }
   const p2 = {
-    x: Math.random() * offsetWidth,
-    y: Math.random() * offsetHeight
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight
   }
   const deltaY = p2.y - p1.y;
   const deltaX = p2.x - p1.x;
