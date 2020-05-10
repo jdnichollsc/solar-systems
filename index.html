@@ -11,7 +11,7 @@
     <div class="stars"></div>
 
     <!-- SOLAR SYSTEM ANIMATABLE -->
-    <div class="solar-system"></div>
+    <div class="solar-system-container"></div>
 
     <!-- SHOOTING STARS -->
     <animatable-component
@@ -26,5 +26,10 @@
     </animatable-component>
     
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript">
+      const solarSystemContainer = document.querySelector('.solar-system-container');
+      solarSystemContainer.addEventListener("dblclick", toggleFullscreen);
+    </script>
   </body>
 </html>
