@@ -15,7 +15,17 @@
 
     <!-- SHOOTING STARS -->
     <animatable-component
-      class='shooting-star'
+      class='shooting-star star1'
+      autoplay
+      fill="both"
+      iterations="1"
+      easing="linear"
+      duration="3000"
+      delay="2600"
+    >
+    </animatable-component>
+    <animatable-component
+      class='shooting-star star2'
       autoplay
       fill="both"
       iterations="1"
@@ -30,6 +40,11 @@
     <script type="text/javascript">
       const solarSystemContainer = document.querySelector('.solar-system');
       solarSystemContainer.addEventListener("dblclick", toggleFullscreen);
+      
+      createStars();
+      createSolarSystem();
+      createShootingStar(document.querySelector('.star1'));
+      createShootingStar(document.querySelector('.star2'));
     </script>
   </body>
 </html>
